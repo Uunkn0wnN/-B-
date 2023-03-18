@@ -1,8 +1,8 @@
 :root {
     --default-font-family: monospace;
 
-    --page-background-color: #191c25;
-    --page-background-gradient: radial-gradient(50% 50% at 50% 50%, #20242F 0%, #191C25 100%); /* bookie helped me with this gradient */
+    --page-background-color: #000000;
+    --page-background-gradient: radial-gradient(50% 50% at 50% 50%, #20242F 0%, #000000 100%); /* bookie helped me with this gradient */
     --default-text-color: #d48341;
     --default-text-glow-color: #e39f68;
     --default-text-glow-radius: 0.08rem;
