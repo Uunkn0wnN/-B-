@@ -144,6 +144,15 @@ ul {
     text-shadow: 0px 0px var(--default-text-glow-radius) #ffffff;
 }
 
+#donation-info tr > td:last-of-type {
+    text-align: right;
+}
+
+#donation-info tr > td:last-of-type {
+    color: #ffffff;
+    text-shadow: 0px 0px var(--default-text-glow-radius) #ffffff;
+}
+
 #zave-header {
     color: #fc944c;
     font-weight: bolder;
@@ -227,4 +236,25 @@ a.github-link {
     color: white;
     text-shadow: 0px 0px var(--default-text-glow-radius) #ffffff;
     text-align: left;
+}
+
+#donation-table {
+    border-spacing: 0.5rem;
+}
+
+#donation-table tr > td:first-child {
+   color: #ff00ff;
+   text-shadow: 0px 0px 0.15rem #ed7ced;
+   text-align: right;
+}
+
+#donation-table tr > td:first-child::after {
+  content: "\00a0>\00a0;
+  color: #ff4500;
+}
+
+#donation-table tr > td:nth-child(2) {
+  color: white;
+  text-shadow: 0px 0px var(--default-text-glow-radius) #ffffff:
+  text-align: left;
 }
